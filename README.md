@@ -13,9 +13,9 @@ Pattern Generator is a Python-based tool designed to generate and display a vari
 
 The project leverages Python’s capabilities to process pattern definitions and display them in a user-friendly format. It includes:
 
-1. A **pattern definition file** (`patterns.pg`) to define patterns using the custom syntax.
-2. A **pattern generator engine** (`pattern_generator.py`) to parse and render the patterns.
-3. Example usage through a script (`script.py`), which demonstrates the generation of predefined patterns.
+1. A **pattern definition file** ([patterns.pg](https://github.com/ajratnam/PatternGenerator/blob/main/patterns.pg)) to define patterns using the custom syntax.
+2. A **pattern generator engine** ([pattern_generator.py](https://github.com/ajratnam/PatternGenerator/blob/main/pattern_generator.py)) to parse and render the patterns.
+3. Example usage through a script ([script.py](https://github.com/ajratnam/PatternGenerator/blob/main/script.py)), which demonstrates the generation of predefined patterns.
 
 ## Pattern Syntax
 
@@ -77,7 +77,7 @@ Here are some of the sample patterns provided:
        *
    ```
 
-*(For a full list of patterns, refer to the file output.txt which has the output for the patterns in pattern.pg)*
+*(For a full list of patterns, refer to the file [output.txt](https://github.com/ajratnam/PatternGenerator/blob/main/output.txt) which has the output for the patterns in [pattern.pg](https://github.com/ajratnam/PatternGenerator/blob/main/patterns.pg))*
 
 ## Setup
 
@@ -165,4 +165,4 @@ Contributions are welcome! If you have suggestions for new patterns, optimizatio
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/ajratnam/PatternGenerator/blob/main/LICENSE) file for details.
