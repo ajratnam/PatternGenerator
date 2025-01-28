@@ -83,7 +83,7 @@ Here are some of the sample patterns provided:
 
 ### Prerequisites
 
-- Python 3.12 or above
+- Python 3.10 or above
 - No additional external libraries are required.
 
 ### Installation
@@ -98,12 +98,12 @@ Here are some of the sample patterns provided:
 
 ### Usage
 
-1. Run the `pattern_generator.py` script with a pattern definition file:
+1. Run the [pattern_generator.py](https://github.com/ajratnam/PatternGenerator/blob/main/pattern_generator.py) script with a pattern definition file:
    ```bash
    python pattern_generator.py patterns.pg
    ```
 
-2. Or use the `script.py` for predefined examples:
+2. Or use the [script.py](https://github.com/ajratnam/PatternGenerator/blob/main/script.py) for predefined examples:
    ```bash
    python script.py
    ```
@@ -142,15 +142,15 @@ Here are some of the sample patterns provided:
 ### Adding New Patterns
 
 To add a new pattern:
-1. Define it in the `patterns.pg` file or `script.py` as a dictionary entry:
+1. Define it in the [patterns.pg](https://github.com/ajratnam/PatternGenerator/blob/main/patterns.pg) file or [script.py](https://github.com/ajratnam/PatternGenerator/blob/main/script.py) as a dictionary entry:
    ```python
-   "Custom Pattern": "[symbol ,count],rows",
+   "Custom Pattern": "[symbol,count],rows",
    ```
 2. The generator will automatically render it during execution.
 
 ### Adjusting Output Styles
 
-- Modify `justify_size` or `auto_index` in the `ComplexPatternGenerator` class for custom formatting.
+- Modify `justify_size` or `auto_index` in the [ComplexPatternGenerator](https://github.com/ajratnam/PatternGenerator/blob/main/pattern_generator.py#L41-L135) class for custom formatting.
 
 ## Contributing
 
