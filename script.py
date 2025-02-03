@@ -18,8 +18,10 @@ example_patterns = {
     "Hollow Diamond": "[ ,4,* ,1],1,[ ,{3-!},* ,1,  ,!,* ,1],0..3..0,[ ,4,* ,1],1",
 }
 
-generator = ComplexPatternGenerator(justify_size=True, auto_index=True)
-for pattern_name, pattern_code in example_patterns.items():
-    generator.generate(pattern_code, pattern_name)
 
-generator.print_all()
+if __name__ == "__main__":
+    generator = ComplexPatternGenerator(justify_size=True, auto_index=True)
+    for pattern_name, pattern_code in example_patterns.items():
+        generator.generate(pattern_code, pattern_name)
+
+    generator.print_all()
